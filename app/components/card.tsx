@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Card({ song }: { song: PropTypes }) {
     return (
         <>
-            <Link href={`/${song.id}`} className="block w-full bg-black px-8 py-1 my-2">
+            <Link href={`/${song.id}`} className="block w-full bg-black px-8 py-1 my-2 hover:scale-[1.03] hover:bg-gray-800">
                 <div className="flex flex-row items-center justify-between">
                     <Image
                         src={song.img}
