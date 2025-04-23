@@ -1,4 +1,4 @@
-import {PropTypes} from "@/types";
+import {PropTypes} from "@/type";
 import Link from "next/link";
 import Image from "next/image";
 
