@@ -1,0 +1,18 @@
+{
+  "songs": [
+    {
+      "id": "id1",
+      "title": "title",
+      "lyrics": "testing",
+      "link": "google.com",
+      "img": "/favicon.ico"
+    },
+    {
+      "id": "id2",
+      "title": "title",
+      "lyrics": "testing",
+      "link": "google.com",
+      "img": "/favicon.ico"
+    }
+  ]
+}
