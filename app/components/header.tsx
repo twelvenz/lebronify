@@ -1,7 +1,7 @@
 'use client';
 import Nav from "@/app/components/nav";
 import { useTheme } from '@/lib/useTheme'
-import { ThemeSwitcher } from "@/app/components/ThemeSwitcher";
+import { ThemeSwitcher } from "@/app/components/themeSwitcher";
 
 export default function Header() {
     const { currentTheme } = useTheme();

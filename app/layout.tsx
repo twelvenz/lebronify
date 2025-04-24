@@ -2,7 +2,7 @@ import type { Metadata } from "next"
 import "./globals.css";
 import Header from "@/app/components/header";
 import { ThemeProvider } from "@/lib/ThemeContext"
-import { ThemeBodyWrapper } from "@/app/components/BodyWrapper";
+import { ThemeBodyWrapper } from "@/app/components/bodyWrapper";
 
 export const metadata: Metadata = {
   title: "Lebronify",
