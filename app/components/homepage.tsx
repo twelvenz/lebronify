@@ -9,8 +9,8 @@ export default function Homepage() {
                     <p>play random song button</p>
                 </div>
 
-                <div className="flex justify-center bg-[#FDB927] px-16 py-3 m-8">
-                    <div className="block">
+                <div className="flex justify-center bg-[#FDB927] px-13 py-3 m-8 rounded-xl">
+                    <div className="block h-150 w-full overflow-y-auto p-4">
                         {songsData.songs.map((song) => (
                             <Card key={song.id} song={song} />
                         ))}
