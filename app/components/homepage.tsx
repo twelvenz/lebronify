@@ -11,12 +11,12 @@ export default function Homepage() {
                 <div className="bg-red-500 text-green-300">
                     <p>play random song button</p>
                 </div>
-
+              
                 <div
-                    className="flex justify-center px-16 py-3 m-8"
+                    className="flex justify-center px-13 py-3 m-8 rounded-xl"
                     style={{backgroundColor: currentTheme.primary}}
                 >
-                    <div className="block">
+                    <div className="block h-150 w-full overflow-y-auto p-4">
                         {songsData.songs.map((song) => (
                             <Card key={song.id} song={song} />
                         ))}
@@ -27,3 +27,5 @@ export default function Homepage() {
         </div>
     );
 }
+
+       
