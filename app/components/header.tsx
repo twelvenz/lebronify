@@ -1,19 +1,22 @@
 'use client';
 import Nav from "@/app/components/nav";
 import { useTheme } from '@/lib/useTheme'
-import { ThemeSwitcher } from "@/app/components/themeSwitcher";
+import {ThemeSwitcher} from "@/app/components/themeSwitcher";
+import Link from "next/link";
 
 export default function Header() {
     const { currentTheme } = useTheme();
 
     return (
         <header
-            className="flex justify-between items-center h-20 mb-8"
+            className="flex justify-between items-center h-20 mb-6"
             style={{ backgroundColor: currentTheme.secondary}}
         >
-            <h1 className="p-2 m-2 text-2xl font-bold">Lebronify</h1>
-            <ThemeSwitcher />
-            <Nav/>
+            <Link href={`/`} className="p-2 m-2 text-2xl font-bold hover:scale-[1.025]">Lebronify</Link>
+            <div className="flex items-center">
+                <Nav />
+                <ThemeSwitcher />
+            </div>
         </header>
     )
 }
