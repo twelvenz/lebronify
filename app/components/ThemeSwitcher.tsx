@@ -1,3 +1,6 @@
+// Runbin
+// This theme switcher is a dropdown that lets you pick the team and it'll update the colors based on the team selected.
+
 'use client';
 import { useTheme } from '@/lib/useTheme';
 
@@ -15,7 +18,7 @@ export function ThemeSwitcher() {
             >
                 {availableTeams.map(team => (
                     <option key={team} value={team}>
-                        {team.replace(/-/g, ' ')}
+                        {team}
                     </option>
                 ))}
             </select>

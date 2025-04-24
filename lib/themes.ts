@@ -1,4 +1,5 @@
-// This is an object with all color themes - Runbin
+// Runbin
+// This is an object that stores multiple team object which stores their color schemas.
 
 export const nbaColorThemes = {
     "Los-Angeles-Lakers" : {

@@ -1,4 +1,5 @@
-// Body Wrapper - Runbin
+// Runbin
+// useTheme cannot be used in the layout because layout is server side so body wrapper is created to map the colors to the body.
 
 'use client';
 

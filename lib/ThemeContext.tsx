@@ -1,4 +1,6 @@
-// Runbin - ThemeProvider
+// Runbin
+// This file creates a theme provider component using react context to manage and share the current nba team themes the app.
+// It lets any component access or change the selected team, so the ui updates with matching theme colors.
 
 'use client'
 import { createContext, useState, ReactNode } from 'react';
