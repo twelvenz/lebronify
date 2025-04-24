@@ -1,7 +1,7 @@
 'use client';
-import Nav from "@/app/components/nav";
+import Nav from "@/app/components/Nav";
 import { useTheme } from '@/lib/useTheme'
-import {ThemeSwitcher} from "@/app/components/themeSwitcher";
+import {ThemeSwitcher} from "@/app/components/ThemeSwitcher";
 import Link from "next/link";
 
 export default function Header() {

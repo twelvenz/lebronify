@@ -1,8 +1,8 @@
 import type { Metadata } from "next"
 import "./globals.css";
-import Header from "@/app/components/header";
+import Header from "@/app/components/Header";
 import { ThemeProvider } from "@/lib/ThemeContext"
-import { BodyWrapper } from "@/app/components/bodyWrapper";
+import { BodyWrapper } from "@/app/components/BodyWrapper";
 
 export const metadata: Metadata = {
   title: "Lebronify",

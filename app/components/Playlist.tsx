@@ -1,5 +1,5 @@
 import songsData from "@/songs.json";
-import Card from "@/app/components/card";
+import Card from "@/app/components/Card";
 import { useTheme } from "@/lib/useTheme"
 
 export default function Playlist() {

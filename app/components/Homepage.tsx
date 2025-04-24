@@ -1,6 +1,6 @@
 'use client';
 
-import Playlist from "@/app/components/playlist";
+import Playlist from "@/app/components/Playlist";
 
 export default function Homepage() {
 
