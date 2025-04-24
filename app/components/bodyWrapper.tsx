@@ -5,16 +5,16 @@
 
 import { useTheme } from '@/lib/useTheme';
 
-export function ThemeBodyWrapper({ children }: { children: React.ReactNode }) {
+export function BodyWrapper({ children }: { children: React.ReactNode }) {
     const { currentTheme } = useTheme();
 
     return (
-        <div
+        <body
             style={{
                 backgroundColor: currentTheme.primary,
             }}
         >
             {children}
-        </div>
+        </body>
     );
 }

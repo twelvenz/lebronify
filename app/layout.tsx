@@ -2,7 +2,7 @@ import type { Metadata } from "next"
 import "./globals.css";
 import Header from "@/app/components/header";
 import { ThemeProvider } from "@/lib/ThemeContext"
-import { ThemeBodyWrapper } from "@/app/components/bodyWrapper";
+import { BodyWrapper } from "@/app/components/bodyWrapper";
 
 export const metadata: Metadata = {
   title: "Lebronify",
@@ -16,16 +16,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-
-      >
         <ThemeProvider>
-            <ThemeBodyWrapper>
+            <BodyWrapper>
                 <Header/>
                 {children}
-            </ThemeBodyWrapper>
+            </BodyWrapper>
         </ThemeProvider>
-      </body>
     </html>
   );
 }
