@@ -2,16 +2,202 @@
   "songs": [
     {
       "id": "id1",
-      "title": "talking to lebron",
+      "title": "Always Glaze LeBron",
+      "original": "Never Say Never",
       "lyrics": "testing",
-      "link": "google.com",
+      "link": "Always Glaze LeBron - Never Say Never .mp3",
       "img": "/favicon.ico"
     },
     {
       "id": "id2",
-      "title": "title",
+      "title": "Bron",
+      "original": "Stitches",
       "lyrics": "testing",
-      "link": "google.com",
+      "link": "Bron - Stitches.mp3",
+      "img": "/favicon.ico"
+    },
+    {
+      "id": "id3",
+      "title": "Bron Royalty",
+      "original": "Trap Royalty",
+      "lyrics": "testing",
+      "link": "Bron Royalty - Trap Royalty.mp3",
+      "img": "/favicon.ico"
+    },
+    {
+      "id": "id4",
+      "title": "Bronpei",
+      "original": "Pompei",
+      "lyrics": "testing",
+      "link": "Bronpei - Pompei.mp3",
+      "img": "/favicon.ico"
+    },
+    {
+      "id": "id5",
+      "title": "Dance with Bron",
+      "original": "Shut up and Dance with me",
+      "lyrics": "testing",
+      "link": "Dance with Bron - Shut up and Dance with me.mp3",
+      "img": "/favicon.ico"
+    },
+    {
+      "id": "id6",
+      "title": "Everybron Talks",
+      "original": "Everybody Talks",
+      "lyrics": "testing",
+      "link": "Everybron Talks - Everybody Talks.mp3",
+      "img": "/favicon.ico"
+    },
+    {
+      "id": "id7",
+      "title": "Is He The King",
+      "original": "What do you mean",
+      "lyrics": "testing",
+      "link": "Is He The King - What do you mean.mp3",
+      "img": "/favicon.ico"
+    },
+    {
+      "id": "id8",
+      "title": "Le-Die Balling",
+      "original": "Die Trying",
+      "lyrics": "testing",
+      "link": "Le-Die Balling - Die Trying.mp3",
+      "img": "/favicon.ico"
+    },
+    {
+      "id": "id9",
+      "title": "LeBron Changes",
+      "original": "Night Changes",
+      "lyrics": "testing",
+      "link": "LeBron Changes - Night Changes.mp3",
+      "img": "/favicon.ico"
+    },
+    {
+      "id": "id10",
+      "title": "LeBron Hour",
+      "original": "Golden Hour",
+      "lyrics": "testing",
+      "link": "LeBron Hour - Golden Hour.mp3",
+      "img": "/favicon.ico"
+    },
+    {
+      "id": "id11",
+      "title": "LeBron Love",
+      "original": "F Love",
+      "lyrics": "testing",
+      "link": "LeBron Love - F Love.mp3",
+      "img": "/favicon.ico"
+    },
+    {
+      "id": "id12",
+      "title": "LeGold",
+      "original": "Yellow",
+      "lyrics": "testing",
+      "link": "LeGold - Yellow.mp3",
+      "img": "/favicon.ico"
+    },
+    {
+      "id": "id13",
+      "title": "LeNade",
+      "original": "Grenade",
+      "lyrics": "testing",
+      "link": "LeNade - Grenade.mp3",
+      "img": "/favicon.ico"
+    },
+    {
+      "id": "id14",
+      "title": "LeRude",
+      "original": "Rude",
+      "lyrics": "testing",
+      "link": "LeRude - Rude.mp3",
+      "img": "/favicon.ico"
+    },
+    {
+      "id": "id15",
+      "title": "Marry Bron",
+      "original": "Marry Me",
+      "lyrics": "testing",
+      "link": "Marry Bron - Marry Me .mp3",
+      "img": "/favicon.ico"
+    },
+    {
+      "id": "id16",
+      "title": "Number 23",
+      "original": "Young WIld and Free",
+      "lyrics": "testing",
+      "link": "Number 23 -Young WIld and Free.mp3",
+      "img": "/favicon.ico"
+    },
+    {
+      "id": "id17",
+      "title": "Panic at LeDisco",
+      "original": "I Write Sins not Tragedies",
+      "lyrics": "testing",
+      "link": "Panic at LeDisco - I Write Sins not Tragedies .mp3",
+      "img": "/favicon.ico"
+    },
+    {
+      "id": "id18",
+      "title": "Romantic Bronicide",
+      "original": "Romantic Homicide",
+      "lyrics": "testing",
+      "link": "Romantic Bronicide - Romantic Homicide .mp3",
+      "img": "/favicon.ico"
+    },
+    {
+      "id": "id19",
+      "title": "That's Bron",
+      "original": "Forget You",
+      "lyrics": "testing",
+      "link": "That's Bron - Forget You.mp3",
+      "img": "/favicon.ico"
+    },
+    {
+      "id": "id20",
+      "title": "That's What Makes Bron beautiful",
+      "original": "That's what makes you beautiful",
+      "lyrics": "testing",
+      "link": "That's What Makes Bron beautiful - That's what makes you beautiful .mp3",
+      "img": "/favicon.ico"
+    },
+    {
+      "id": "id21",
+      "title": "The Bron",
+      "original": "The Prom",
+      "lyrics": "testing",
+      "link": "The Bron - The Prom.mp3",
+      "img": "/favicon.ico"
+    },
+    {
+      "id": "id22",
+      "title": "The LeBron That I Used To Know",
+      "original": "Someone That I used to Know",
+      "lyrics": "testing",
+      "link": "The LeBron That I Used To Know - Someone That I used to Know.mp3",
+      "img": "/favicon.ico"
+    },
+    {
+      "id": "id23",
+      "title": "The Sweet LeScape",
+      "original": "",
+      "lyrics": "testing",
+      "link": "The Sweet LeScape .mp3",
+      "img": "/favicon.ico"
+    },
+    {
+      "id": "id24",
+      "title": "This Bron",
+      "original": "This Love",
+      "lyrics": "testing",
+      "link": "This Bron - This Love.mp3",
+      "img": "/favicon.ico"
+    },
+    {
+      "id": "id25",
+      "title": "Towards The Bron",
+      "original": "Towards the Sun",
+      "lyrics": "testing",
+      "link": "Towards The Bron - Towards the Sun.mp3",
       "img": "/favicon.ico"
     }
   ]
