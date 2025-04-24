@@ -14,7 +14,7 @@ export default function Homepage() {
               
                 <div
                     className="flex justify-center px-13 py-3 m-8 rounded-xl"
-                    style={{backgroundColor: currentTheme.primary}}
+                    style={{backgroundColor: currentTheme.secondary}}
                 >
                     <div className="block h-150 w-full overflow-y-auto p-4">
                         {songsData.songs.map((song) => (
