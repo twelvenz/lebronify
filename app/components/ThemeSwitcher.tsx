@@ -9,7 +9,7 @@ export function ThemeSwitcher() {
 
     return (
         <div className="px-3 border-l-2 border-black">
-            <label htmlFor="team-select" className="mr-2 font-bold text-lg">Theme:</label>
+            <label htmlFor="team-select" className="mr-2 font-bold text-lg hover:scale-[1.02] inline-block">Theme:</label>
             <select
                 id="team-select"
                 value={currentTeam}
