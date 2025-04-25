@@ -7,7 +7,7 @@ export default function Card({ song }: { song: PropTypes }) {
     const { currentTheme } = useTheme();
     return (
         <>
-            <Link href={`/${song.title}`} className="block w-full px-6 py-1 my-2 hover:scale-[1.03] hover:bg-gray-800"
+            <Link href={`/${song.title}`} className="block px-6 py-1 my-2 hover:scale-[1.03] hover:bg-gray-800"
                   style={{backgroundColor: currentTheme.tertiary}}
             >
                 <div className="flex flex-row items-center justify-between">
@@ -19,7 +19,7 @@ export default function Card({ song }: { song: PropTypes }) {
                         className="object-cover"
                     />
                     <h4
-                        className="font-bold text-xl mx-5 "
+                        className="font-bold text-lg mx-3 w-full"
                         style={{color: currentTheme.secondary}}
                     >{song.title}</h4>
                 </div>
