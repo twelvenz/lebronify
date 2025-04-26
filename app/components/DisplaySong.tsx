@@ -8,7 +8,7 @@ export default function DisplaySong({ song } : { song: PropTypes }) {
             <h2 className="text-5xl font-bold text-black">Song Title: {song.title}</h2>
             <div className="flex">
                 {/* Audio documentation: https://www.w3schools.com/html/html5_audio.asp */}
-                <audio controls>
+                <audio controls loop>
                     <source src={song.link} type="audio/mpeg"/>
                     Your browser does not support the audio element.
                 </audio>
