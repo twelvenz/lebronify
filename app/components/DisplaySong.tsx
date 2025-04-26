@@ -1,3 +1,5 @@
+// Aaron's Component
+
 import { PropTypes } from "@/types";
 
 export default function DisplaySong({ song } : { song: PropTypes }) {
