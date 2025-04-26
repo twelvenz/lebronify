@@ -1,3 +1,5 @@
+// Aaron's Component
+
 import { PropTypes } from "@/types";
 
 export default function DisplaySong({ song } : { song: PropTypes }) {
@@ -11,7 +13,7 @@ export default function DisplaySong({ song } : { song: PropTypes }) {
                     Your browser does not support the audio element.
                 </audio>
             </div>
-            <h3 className="text-3xl font-bold text-black">Cover of: {song.original}</h3>
+            <h3 className="text-4xl font-bold text-black">Cover of: {song.original}</h3>
         </div>
     );
 }

@@ -1,9 +1,9 @@
+// Made by Vincent
+
 import { PropTypes } from "@/types";
 import Link from "next/link";
 import Image from "next/image";
 import { useTheme } from "@/lib/useTheme"
-
-// Made by Vincent
 
 // Card function takes in individual song's PropTypes to display it (i.e. create a style structure for the song)
 export default function Card({ song }: { song: PropTypes }) {
