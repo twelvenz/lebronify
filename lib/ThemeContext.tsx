@@ -6,6 +6,7 @@
 import { createContext, useState, ReactNode } from 'react';
 import { nbaColorThemes } from '@/lib/themes';
 
+// In these interfaces, we define the structure of a team's theme color and the data that the context will provide.
 interface TeamTheme {
     primary: string,
     secondary: string,
@@ -19,6 +20,7 @@ interface ThemeContextType {
     availableTeams: string[];
 }
 
+// We want to define a default value for the context.
 const defaultContextValue: ThemeContextType = {
     currentTeam: "Los-Angeles-Lakers",
     currentTheme: nbaColorThemes["Los-Angeles-Lakers"],
@@ -26,13 +28,16 @@ const defaultContextValue: ThemeContextType = {
     availableTeams: Object.keys(nbaColorThemes)
 };
 
+// Create the theme context object w/ the default value
 export const ThemeContext = createContext<ThemeContextType>(defaultContextValue);
 
+// We define the expected props for the ThemeProvider component.
 interface ThemeProviderProps {
     children: ReactNode;
     initialTeam?: string;
 }
 
+// The ThemeProvider component wraps the app and provides the theme context down to the children.
 export function ThemeProvider({
     children,
     initialTeam = "Los-Angeles-Lakers"
@@ -50,7 +55,7 @@ export function ThemeProvider({
         currentTeam,
         currentTheme,
         changeTeam,
-        availableTeams: Object.keys(nbaColorThemes)
+        availableTeams: Object.keys(nbaColorThemes) 
     }
 
     return (
