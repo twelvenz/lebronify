@@ -14,7 +14,7 @@ export function ThemeSwitcher() {
                 id="team-select"
                 value={currentTeam}
                 onChange={(e) => changeTeam(e.target.value)}
-                className="px-2 rounded border"
+                className="px-2 rounded-2xl border"
             >
                 {availableTeams.map(team => (
                     <option key={team} value={team}>
