@@ -3,6 +3,7 @@ import "./globals.css";
 import Header from "@/app/components/Header";
 import { ThemeProvider } from "@/lib/ThemeContext"
 import { BodyWrapper } from "@/app/components/BodyWrapper";
+import Footer from "@/app/components/Footer";
 
 export const metadata: Metadata = {
   title: "Lebronify",
@@ -20,6 +21,7 @@ export default function RootLayout({
             <BodyWrapper>
                 <Header/>
                 {children}
+                <Footer/>
             </BodyWrapper>
         </ThemeProvider>
     </html>

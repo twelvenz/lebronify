@@ -6,7 +6,9 @@ export default function Nav() {
 
     return (
         <nav className="p-2">
-            <Link href={`/`} className={linkStyle}>Home</Link>
+            <ul>
+                <li><Link href={`/`} className={linkStyle}>Home</Link></li>
+            </ul>
         </nav>
     )
 }

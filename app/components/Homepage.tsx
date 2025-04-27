@@ -1,16 +1,14 @@
 'use client';
 
 import Playlist from "@/app/components/Playlist";
+import RandomSongButton from "@/app/components/RandomSongButton";
 
 export default function Homepage() {
 
     return (
         <div className="flex flex-col items-center w-full">
 
-            {/* replace this with a button to redirect to a random page in the playlist*/}
-            <div className="bg-red-500 text-green-300">
-                <p>play random song button</p>
-            </div>
+            <RandomSongButton/>
 
             <Playlist/>
         </div>
