@@ -14,38 +14,24 @@ export default function Footer() {
             style={{ backgroundColor: currentTheme.secondary}}
         >
             <div className="flex justify-between items-center m-auto">
-                <h2 className="lg:px-5 px-2"><span className="font-bold">Lebron&#39;s Stats</span> (April 2025):</h2>
+                <h2 className="lg:px-5 px-2"><span className="font-bold">In Honor of the:</span></h2>
                 <div className={style1}>
-                    <h3 className="font-bold">MVPs won:</h3>
-                    <p>4</p>
-                </div>
-                <div className={style1}>
-                    <h3 className="font-bold">All-Stars won:</h3>
-                    <p>21</p>
+                    <h3 className="font-bold">4x MVP</h3>
                 </div>
                 <div className={style1}>
-                    <h3 className="font-bold">Total Points Scored:</h3>
-                    <p>42,184</p>
+                    <h3 className="font-bold">4x Champion</h3>
                 </div>
-                <div className={style1 + " sm:block hidden"}>
-                    <h3 className="font-bold">Points Per Game:</h3>
-                    <p>27.0</p>
+                <div className={style1}>
+                    <h3 className="font-bold">4x FMVP</h3>
                 </div>
-                <div className={style1 + " md:block hidden"}>
-                    <h3 className="font-bold">Assists Per Game:</h3>
-                    <p>7.4</p>
+                <div className={style1}>
+                    <h3 className="font-bold">21x All Star</h3>
                 </div>
-                <div className={style1 + " lg:block hidden"}>
-                    <h3 className="font-bold">Rebounds Per Game:</h3>
-                    <p>7.5</p>
+                <div className={style1}>
+                    <h3 className="font-bold">20x All-NBA</h3>
                 </div>
-                <div className={style1 + " 2xl:block hidden"}>
-                    <h3 className="font-bold">Highest Scoring Game:</h3>
-                    <p>61 PTS vs. Charlotte Bobcats</p>
-                </div>
-                <div className="lg:px-5 px-2 2xl:block hidden">
-                    <h3 className="font-bold">Olympic Medals:</h3>
-                    <p>3 Gold, 1 Bronze</p>
+                <div className={style1}>
+                    <h3 className="font-bold">3x Olympic Gold Medalist</h3>
                 </div>
             </div>
         </footer>
