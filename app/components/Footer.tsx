@@ -14,7 +14,7 @@ export default function Footer() {
             style={{ backgroundColor: currentTheme.secondary}}
         >
             <div className="flex justify-between items-center m-auto">
-                <h2 className="px-5"><span className="font-bold">Lebron's Stats</span> (April 2025):</h2>
+                <h2 className="px-5"><span className="font-bold">Lebron&apos;s Stats</span> (April 2025):</h2>
                 <div className="lg:px-5 px-2 border-amber-600 border-r">
                     <h3 className="font-bold">MVPs won:</h3>
                     <p>4</p>
