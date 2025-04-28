@@ -6,7 +6,7 @@ import RandomSongButton from "@/app/components/RandomSongButton";
 export default function Homepage() {
 
     return (
-        <div className="flex flex-col items-center w-full">
+        <div className="flex flex-col items-center w-full h-full">
 
             <RandomSongButton/>
 
