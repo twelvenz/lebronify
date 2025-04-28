@@ -16,7 +16,7 @@ export default function Card({ song }: { song: PropTypes }) {
                 Conditionally/dynamically change the backgroundColor based on the currentTheme
                     Source: https://react.dev/learn#displaying-data + reference from Lab3
             */}
-            <Link href={`/${song.title}`} className="block px-6 py-1 my-2 hover:scale-[1.03] rounded-2xl hover:bg-gray-800"
+            <Link href={`/${song.title}`} className="block px-3 py-1 my-2 hover:scale-[1.03] rounded-2xl hover:bg-gray-800"
                   style={{backgroundColor: currentTheme.tertiary}}
             >
                 {/*Styling the Image and content of the song*/}

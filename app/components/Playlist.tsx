@@ -9,10 +9,10 @@ export default function Playlist() {
     return(
         <>
             <div
-                className="flex justify-center px-13 py-3 m-8 rounded-xl"
+                className="flex justify-center px-10 py-3 m-6 rounded-xl"
                 style={{backgroundColor: currentTheme.secondary}}
             >
-                <div className="block h-150 w-full overflow-y-auto p-4">
+                <div className="block h-130 w-full overflow-y-auto p-4">
                     {songsData.songs.map((song) => (
                         <Card key={song.id} song={song} />
                     ))}
