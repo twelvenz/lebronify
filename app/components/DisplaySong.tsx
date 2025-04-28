@@ -5,6 +5,7 @@
 import { PropTypes } from "@/types";
 import { useTheme } from '@/lib/useTheme';
 import Image from "next/image";
+import RandomSongButton from "@/app/components/RandomSongButton";
 
 export default function DisplaySong({ song } : { song: PropTypes }) {
     const { currentTheme } = useTheme();
@@ -34,6 +35,9 @@ export default function DisplaySong({ song } : { song: PropTypes }) {
                     Your browser does not support the audio element.
                 </audio>
                 <h3 className="text-3xl font-semibold" style = {textColor}>Cover of: {song.original}</h3>
+            </div>
+            <div className="flex flex-col justify-center items-center px-3 p-5">
+                <RandomSongButton/>
             </div>
         </div>
     );

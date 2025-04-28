@@ -1,3 +1,4 @@
+"use client"
 //Cody's component
 
 import randomize from "@/lib/randomize";
@@ -9,6 +10,9 @@ export default function RandomSongButton() {
     return (
         <button className="font-bold hover:scale-[1.15] p-3 border border-amber-500 rounded-2xl"
                 style={{ backgroundColor: currentTheme.secondary}}
-                onClick={randomize}>Random Song</button>
+                onClick={randomize}
+        >
+            Random Song
+        </button>
     )
 }
