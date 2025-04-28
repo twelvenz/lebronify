@@ -27,7 +27,7 @@ export default function Footer() {
                     <h3 className="font-bold">Total Points Scored:</h3>
                     <p>42,184</p>
                 </div>
-                <div className={style1}>
+                <div className={style1 + " sm:block hidden"}>
                     <h3 className="font-bold">Points Per Game:</h3>
                     <p>27.0</p>
                 </div>
