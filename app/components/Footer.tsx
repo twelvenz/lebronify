@@ -9,8 +9,8 @@ export default function Footer() {
 
     return (
         <footer
-            //styling: fixed footer position at bottom and make width fill screen
-            className="flex justify-between items-center h-20 fixed bottom-0 w-full"
+            //styling: footer position at bottom and make width fill screen
+            className="flex justify-between items-center h-20 bottom-0 w-full"
             style={{ backgroundColor: currentTheme.secondary}}
         >
             <div className="flex justify-between items-center m-auto">
