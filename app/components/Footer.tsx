@@ -24,13 +24,13 @@ export default function Footer() {
                 <div className={style1}>
                     <h3 className="font-bold">4x FMVP</h3>
                 </div>
-                <div className={style1}>
+                <div className={style1 + " sm:block hidden"}>
                     <h3 className="font-bold">21x All Star</h3>
                 </div>
-                <div className={style1}>
+                <div className={style1 + " md:block hidden"}>
                     <h3 className="font-bold">20x All-NBA</h3>
                 </div>
-                <div className={style1}>
+                <div className={style1 + " lg:block hidden"}>
                     <h3 className="font-bold">3x Olympic Gold Medalist</h3>
                 </div>
             </div>
