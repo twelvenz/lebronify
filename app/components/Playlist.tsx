@@ -6,6 +6,7 @@ import { useTheme } from "@/lib/useTheme"
 
 export default function Playlist() {
     const {currentTheme} = useTheme();
+    // mapping concept from quiz 6
     return(
         <>
             <div

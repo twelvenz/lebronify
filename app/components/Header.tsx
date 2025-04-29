@@ -14,6 +14,7 @@ export default function Header() {
             className="flex justify-between items-center h-20 mb-6"
             style={{ backgroundColor: currentTheme.secondary}}
         >
+            {/* clicking on the Lebronify logo will return you to home*/}
             <Link href={`/`} className="p-2 m-2 text-2xl font-bold hover:scale-[1.025]">Lebronify</Link>
             <div className="flex items-center">
                 <Nav />
