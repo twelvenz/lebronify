@@ -1,4 +1,4 @@
-// basic Nav function.
+// Elven's basic Nav function.
 import Link from "next/link";
 
 export default function Nav() {
