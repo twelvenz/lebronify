@@ -11,7 +11,7 @@ export default function Header() {
 
     return (
         <header
-            className="flex justify-between items-center h-20 mb-6"
+            className="flex justify-between items-center mb-6 h-20 fixed top-0 w-full"
             style={{ backgroundColor: currentTheme.secondary}}
         >
             {/* clicking on the Lebronify logo will return you to home*/}

@@ -19,24 +19,24 @@ export default function DisplaySong({ song } : { song: PropTypes }) {
     }
 
     return (
-        <div className="flex flex-col items-center justify-center text-center">
-            <div className="flex flex-col border border-black rounded-2xl justify-center items-center px-3 p-5" style = {bgColor}>
+        <div className="flex flex-col items-center justify-center text-center pt-30 pb-23">
+            <div className="flex flex-col border border-black rounded-2xl justify-center items-center px-3 p-5 w-100" style = {bgColor}>
                 <h2 className="text-4xl font-bold m-2" style = {textColor}>{song.title}</h2>
                 <Image
                     src="/legoat.png"
                     alt={song.title}
-                    width={164}
-                    height={164}
+                    width={144}
+                    height={144}
                     className="object-cover mx-auto my-0"
                 />
                 {/* Audio documentation: https://www.w3schools.com/html/html5_audio.asp */}
-                <audio controls loop className="w-100 m-5">
+                <audio controls loop className="w-90 m-5">
                     <source src={song.link} type="audio/mpeg" />
                     Your browser does not support the audio element.
                 </audio>
                 <h3 className="text-3xl font-semibold" style = {textColor}>Cover of: {song.original}</h3>
             </div>
-            <div className="flex flex-col justify-center items-center px-3 p-5">
+            <div className="flex flex-col justify-center items-center mt-3 p-3">
                 <RandomSongButton/>
             </div>
         </div>
