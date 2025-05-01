@@ -14,7 +14,7 @@ export default function Footer() {
             style={{ backgroundColor: currentTheme.secondary}}
         >
             <div className="flex justify-between items-center m-auto">
-                <h2 className="lg:px-5 px-2"><span className="font-bold">In Honor of the:</span></h2>
+                <h2 className="lg:px-5 px-2"><span className="font-bold">The:</span></h2>
                 <div className={style1}>
                     <h3 className="font-bold">4x MVP</h3>
                 </div>
