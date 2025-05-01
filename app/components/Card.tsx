@@ -5,7 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useTheme } from "@/lib/useTheme"
 
-// Card function takes in individual song's PropTypes to display it (i.e. create a style structure for the song)
+// Card function takes in a list of songs to display it (i.e. create a style structure for the songs)
 export default function Card({ song }: { song: PropTypes }) {
     // useTheme function from Runbin to change the styling based on the current theme --> Access colors similar to an object
     const { currentTheme } = useTheme();
