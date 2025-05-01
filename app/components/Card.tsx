@@ -7,7 +7,7 @@ import { useTheme } from "@/lib/useTheme"
 
 // Card function takes in individual song's PropTypes to display it (i.e. create a style structure for the song)
 export default function Card({ song }: { song: PropTypes }) {
-    // useTheme Hook from Runbin to change the styling based on the current theme (similar logic to usePathname?)
+    // useTheme function from Runbin to change the styling based on the current theme --> Access colors similar to an object
     const { currentTheme } = useTheme();
     return (
         <>
@@ -19,7 +19,7 @@ export default function Card({ song }: { song: PropTypes }) {
             <Link href={`/${song.title}`} className="block px-3 py-1 my-2 hover:scale-[1.03] rounded-2xl hover:bg-gray-800"
                   style={{backgroundColor: currentTheme.tertiary}}
             >
-                {/*Styling the Image and content of the song*/}
+                {/*Styling the Image and content of the song in each Link*/}
                 <div className="flex flex-row items-center justify-between">
                     <Image
                         src={song.img}
